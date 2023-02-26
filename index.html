@@ -2,103 +2,92 @@
 <html>
 <head>
 	<title>Megan Kongable - Personal Project Portfolio</title>
-	<style>
-		body {
-			font-family: Arial, Helvetica, sans-serif;
-			margin: 0;
-			padding: 0;
-		}
-		header {
-			background-color: #3a1855;
-			color: #d9acef;
-			padding: 20px;
-		}
-		h1 {
-			margin: 0;
-		}
-		nav {
-			background-color: #ddd;
-			padding: 10px;
-		}
-		nav ul {
-			list-style: none;
-			margin: 0;
-			padding: 0;
-		}
-		nav li {
-			display: inline-block;
-			margin: 0 10px;
-		}
-		nav a {
-			color: #333;
-			text-decoration: none;
-			padding: 5px;
-			border-radius: 5px;
-			transition: background-color 0.2s ease;
-		}
-		nav a:hover {
-			background-color: #333;
-			color: #fff;
-		}
-		main {
-			padding: 20px;
-		}
-		h2 {
-			margin-top: 0;
-		}
-		.project {
-			border: 1px solid #b77bf4;
-			padding: 20px;
-			margin-bottom: 20px;
-			border-radius: 5px;
-			box-shadow: 0px 0px 5px #600897;
-		}
-		.project h3 {
-			margin-top: 0;
-		}
-		.project p {
-			margin: 0;
-		}
-	</style>
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 	<header>
-		<h1>Megan Kongable</h1>
-		<p>Personal Project Portfolio</p>
-	</header>
+		<div style="overflow: auto; margin-right: 5px;">
+		  <h1 style="margin: 0;">Megan Kongable</h1>
+		  <p style="margin: 0;">Personal Project Portfolio</p>
+		</div>
+	  </header>
 	<nav>
 		<ul>
 			<li><a href="#about">About</a></li>
 			<li><a href="#projects">Projects</a></li>
 			<li><a href="#contact">Contact</a></li>
+			<li><a href="#resume">Resume</a></li>
 		</ul>
 	</nav>
 	<main>
 		<section id="about">
 			<h2>About Me</h2>
-			<p>Hi, my name is Megan Kongable and I'm an engineer with a passion for all things coding and building. I specialize in Python, Java, and C++, but I'm always learning and exploring new technologies.</p>
+			<p>Hi, my name is Megan Kongable and I'm an engineer with a passion for all things coding and building. I specialize in <b>Python</b>, <b>Java</b>, and <b>C++</b>, but I'm always learning and exploring new technologies.</p>
+		</section>
+		<section id="resume">
+			<h2>Resume</h2>
+			<p>
+				Download my resume:
+				<a href="resources/swe_resume.pdf" download> Resume (PDF)</a>
+			</p>
+			<p>
+				Or, view it in your web browser! :D
+				<button onclick="location.href='resume.html'">Click to View</button>
+			</p>
 		</section>
 		<section id="projects">
 			<h2>My Projects</h2>
 			<div class="project">
-				<h3>Project 1</h3>
-				<p>Movie Discord Bot</p>
-				<p><a href="#">View project</a></p>
+				<h3>Movie Discord Bot</h3>
+				<p>
+					I wrote a Discord bot in Python with a friend that enables movies to be tracked and rated by people in the same discord server. Fun for groups!
+					<br>
+					Users are able to add movies to their watchlist, rate movies, and view the average rating of a movie across the server.
+					<br><br>
+				</p>
+				<p>
+					<a 
+					href="https://github.com/kevinli22527/MovieDiscordBot" target="_blank">View project on GitHub
+					</a>
+				</p>
 			</div>
 			<div class="project">
-				<h3>Project 2</h3>
-				<p>Leetcode Profile</p>
-				<p><a href="#">View project</a></p>
+				<h3>Leetcode Profile</h3>
+				<p>
+					I've solved over <b>350</b> problems on Leetcode. I focused on learning
+					data structures and algorithms but I've also dabbled in other
+					topics such as system design, database operations, and the linux
+					shell! 
+					<br><br>
+					My favorite data structure so far is the priority queue, also known as a heap. It is a balanced binary tree that is always able to extract the smallest element in O(log n) time, perfect for keeping track of dynamically changing data!
+					<br><br>
+				</p>
+				<p>
+					<a 
+					href="https://github.com/kevinli22527/MovieDiscordBot" target="_blank">View Leetcode profile
+					</a>
+				</p>
 			</div>
 			<div class="project">
-				<h3>Project 3</h3>
-				<p>This Website</p>
-				<p><a href="#">View project</a></p>
+				<h3>Personal Portfolio Website</h3>
+				<p>
+					This Website! 
+					<br> 
+					Made using HTML and CSS, hosted on AWS EC2 using Apache!
+					<br><br>
+				</p>
+				<p>
+					<a 
+					href="https://github.com/mkongable/megan_frontend_learning">View project on GitHub
+					</a>
+				</p>
 			</div>
 		</section>
 		<section id="contact">
 			<h2>Contact Me</h2>
-			<p>Feel free to contact me if you have any questions. I am currently seeking a software engineering roles for either internship positions or full time.</p>
+			<p>Feel free to contact me if you have any questions. I am currently seeking a <b>software engineering</b> role.</p>
 			<p>Email: mkongable18@gmail.com</p>
 			<p>Phone: 319-777-2066
-
+		</section>
+	</main>
+</body>
