@@ -14,7 +14,7 @@ h1 {
     margin: 0;
 }
 nav {
-    background-color: #dda9a9;
+    background-color: #c9c9c9;
     padding: 10px;
 }
 nav ul {
@@ -45,7 +45,7 @@ h2 {
 }
 
 button {
-    background-color: #dda9a9;
+    background-color: #b7b7b7;
     color: rgb(0, 0, 0);
     border: 1px solid #000000;
     border-radius: 5px;
