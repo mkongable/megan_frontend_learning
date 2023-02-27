@@ -2,19 +2,21 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e0d6e2;
+    background-color: #e0fbfc;
+    color: #293241;
 }
 
 header {
-    background-color: #3a1855;
-    color: #d9acef;
+    background-color: #293241;
+    color: #ee6c4d;
     padding: 20px;
 }
 h1 {
     margin: 0;
 }
 nav {
-    background-color: #c9c9c9;
+    background-color: #ee6c4d;
+    color: #293241;
     padding: 10px;
 }
 nav ul {
@@ -27,15 +29,15 @@ nav li {
     margin: 0 10px;
 }
 nav a {
-    color: #333333;
+    color: #293241;
     text-decoration: none;
     padding: 5px;
     border-radius: 5px;
     transition: background-color 0.2s ease;
 }
 nav a:hover {
-    background-color: #8a2be2;
-    color: #fff;
+    background-color: #293241;
+    color: #e0fbfc;
 }
 main {
     padding: 20px;
@@ -45,9 +47,9 @@ h2 {
 }
 
 button {
-    background-color: #b7b7b7;
-    color: rgb(0, 0, 0);
-    border: 1px solid #000000;
+    background-color: #293241;
+    color: #ee6c4d;
+    border: none;
     border-radius: 5px;
     padding: 10px;
     font-size: 16px;
@@ -56,15 +58,17 @@ button {
 }
 
 button:hover {
-    background-color: #8a2be2;
+    background-color: #ee6c4d;
+    color: #293241;
 }
   
 .project {
-    border: 1px solid #b77bf4;
+    border: 1px solid #293241;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
-    box-shadow: 0px 0px 5px #600897;
+    box-shadow: 0px 0px 5px #3d5a80;
+    background-color: #ee6c4d;
 }
 .project h3 {
     margin-top: 0;
