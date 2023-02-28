@@ -12,8 +12,9 @@ header {
     padding: 20px;
 }
 
-.header-with-padding{
+.header-with-padding {
     padding-left: 20px;
+    padding-top: 20px;
 }
 
 h1 {
