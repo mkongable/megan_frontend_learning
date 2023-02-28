@@ -8,14 +8,14 @@ body {
 
 header {
     background-color: #293241;
-    color: #ee6c4d;
+    color: #ffd3da;
     padding: 20px;
 }
 h1 {
     margin: 0;
 }
 nav {
-    background-color: #ee6c4d;
+    background-color: #ffd3da;
     color: #293241;
     padding: 10px;
     margin: auto;
@@ -49,7 +49,7 @@ h2 {
 
 button {
     background-color: #293241;
-    color: #ee6c4d;
+    color: #ffd3da;
     border: none;
     border-radius: 5px;
     padding: 10px;
@@ -59,7 +59,7 @@ button {
 }
 
 button:hover {
-    background-color: #ee6c4d;
+    background-color: #ffd3da;
     color: #293241;
 }
   
@@ -69,7 +69,7 @@ button:hover {
     margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 5px #3d5a80;
-    background-color: #ee6c4d;
+    background-color: #ffd3da;
 }
 .project h3 {
     margin-top: 0;
