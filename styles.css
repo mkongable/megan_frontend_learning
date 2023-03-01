@@ -103,11 +103,6 @@ button:hover {
     margin: auto;
 }
 
-.container {
-    width: 400px;
-    height: 400px;
-    margin: 20px
-}
   .image-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -130,3 +125,11 @@ button:hover {
     border-radius: 5%;
     border: 2px solid #383d3b;
   }
+
+footer {
+    background-color: #383d3b;
+    color: #b0f6ff;
+    padding: 20px;
+    text-align: center;
+    font-size: 13px;
+}
