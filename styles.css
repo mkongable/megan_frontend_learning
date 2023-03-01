@@ -8,8 +8,17 @@ body {
 
 header {
     background-color: #383d3b;
-    color: #b0f6ff;
+    background-image: url(resources/IMG_0878.JPG);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 128px;
+    color: #f0fdff;
     padding: 20px;
+    text-align: center;
+    text-shadow: #383d3b 3px 3px 3px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .header-with-padding {
@@ -26,6 +35,7 @@ nav {
     color: #383d3b;
     padding: 10px;
     margin: auto;
+    font-weight: bold;
 }
 nav ul {
     list-style: none;
@@ -46,6 +56,7 @@ nav a {
 nav a:hover {
     background-color: #383d3b;
     color: #edf4f5;
+    text-decoration: underline;
 }
 main {
     padding: 20px;
@@ -57,7 +68,7 @@ h2 {
 button {
     background-color: #383d3b;
     color: #b0f6ff;
-    border: none;
+    border: 2px solid #383d3b;
     border-radius: 5px;
     padding: 10px;
     font-size: 16px;
