@@ -7,7 +7,7 @@
 <body>
 	<header>
 		<h1 style="margin: 0;">Megan Kongable</h1>
-		<p style="margin: 0;">Personal Project Portfolio</p>
+		<p style="margin: 0; text-align: center">Personal Project Portfolio</p>
 	</header>
 	<nav>
 		<ul>
@@ -19,38 +19,39 @@
 		</ul>
 	</nav>
 	<main>
-		<section id="about">
-			<h2>About Me</h2>
-				<div class="grid-container">
-					<div class="left-col">
+		<div class="grid-container">
+			<div class="left-col">
+				<section id="about">
+					<h2>About Me</h2>
 						<p>Hi, my name is Megan Kongable and I'm an engineer with a passion for all things coding and building. 
 							I specialize in <b>Python</b>, <b>Java</b>, and <b>C++</b>, but I'm always learning and exploring new technologies.</p>
 						<p>When I'm not in school learning computer science and plastics engineering, I enjoy watching movies with my friends, hiking, and exploring new places!
 							I'm an avid animal lover and can be found snuggling my cats or visiting the zoo!</p>
-					</div>
+						<br><br>
+				<section id="resume">
+					<h2>Resume</h2>
+						<p>
+							Download my resume:
+							<a href="resources/swe_resume.pdf" download> Resume (PDF)</a>
+						</p>
+						<p>
+							Or, view it in your web browser!
+							<button onclick="location.href='resume.html'">Click to View</button>
+						</p>
+				</section>
+				</div>
 					<div class="right-col">
 						<img src="resources/GIT_Hub_PFP.jpg" class = "pfp" alt="Megan Kongable" width="300" height="400">
 					</div>
-				</div>
-		</section>
-		<section id="resume">
-			<h2>Resume</h2>
-			<p>
-				Download my resume:
-				<a href="resources/swe_resume.pdf" download> Resume (PDF)</a>
-			</p>
-			<p>
-				Or, view it in your web browser!
-				<button onclick="location.href='resume.html'">Click to View</button>
-			</p>
-		</section>
+			</section>
+		</div>
 		<section id="projects">
 			<h2>My Projects</h2>
 			<div class="project">
 				<h3>Movie Discord Bot</h3>
 				<p>
 					I wrote a Discord bot in Python with a friend that enables movies to be tracked and rated by people in the same discord server. Fun for groups!
-					<br>
+					<br><br>
 					Users are able to add movies to their watchlist, rate movies, and view the average rating of a movie across the server.
 					<br><br>
 				</p>
@@ -68,20 +69,22 @@
 					topics such as system design, database operations, and the linux
 					shell! 
 					<br><br>
-					My favorite data structure so far is the priority queue, also known as a heap. It is a balanced binary tree that is always able to extract the smallest element in O(log n) time, perfect for keeping track of dynamically changing data!
+					My favorite data structure so far is the priority queue, also known as a heap. 
+					It is a balanced binary tree that is always able to extract the smallest element in O(log n) time, 
+					perfect for keeping track of dynamically changing data!
 					<br><br>
 				</p>
 				<p>
 					<a 
-					href="https://github.com/kevinli22527/MovieDiscordBot" target="_blank">View Leetcode profile
+					href="https://leetcode.com/Mkongable/" target="_blank">View Leetcode profile
 					</a>
 				</p>
 			</div>
 			<div class="project">
 				<h3>Personal Portfolio Website</h3>
 				<p>
-					This Website! 
-					<br> 
+					<em>This Website!</em>
+					<br><br> 
 					Made using HTML and CSS, hosted on AWS EC2 using Apache!
 					<br><br>
 				</p>
