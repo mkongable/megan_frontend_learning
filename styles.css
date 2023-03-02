@@ -133,3 +133,27 @@ footer {
     text-align: center;
     font-size: 13px;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin: 20px;
+  }
+  
+  .left-col {
+    grid-column: 1;
+  }
+  
+  .right-col {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.pfp {
+    border-radius: 50%;
+    border: 2px solid #383d3b;
+    height = 
+}
