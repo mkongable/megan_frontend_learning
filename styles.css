@@ -156,7 +156,7 @@ footer {
 .pfp {
     border-radius: 50%;
     border: 2px solid #383d3b;
-    box-shadow: #383d3b 3px 3px 3px;
+    box-shadow: #383d3b 0 0 3px;
 }
 
 p {
