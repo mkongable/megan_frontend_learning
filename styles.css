@@ -162,3 +162,15 @@ footer {
 p {
     text-align: justify;
 }
+
+.easter-egg-link {
+    color: #f0fdff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+}
+
+.if-clicked {
+    color: #f0fdff;
+    text-decoration: none;
+}
