@@ -96,15 +96,16 @@ button:hover {
   .grid-item img {
     width: 300px;
     height: 300px;
-    border: 2px solid #383d3b;
+    border: 3px solid #383d3b;
     border-radius: 50%;
+    background-color: #ffffff;
   }
   
   .caption {
     position: relative;
     bottom: 0;
     left: 0;
-    width: 304px;
+    width: 306px;
     font-size: 24px;
     font-weight: bold;
     text-align: center; /* Center the caption */
@@ -149,6 +150,14 @@ footer {
     padding: 20px;
     text-align: center;
     font-size: 13px;
+    width: 100%;
+    margin-left: -20px;
+    margin-bottom: -20px;
+}
+
+footer h2 {
+    margin: 0;
+    font-size: 24px;
 }
 
 .grid-container {
@@ -216,12 +225,12 @@ align-items: center;
     border: 2px solid #383d3b;
     box-shadow: 3px 3px 3px #383d3b;
     position: relative;
+    background-color: #ffffff;
 }
 
 .project2 {
     border: none;
     padding: 20px;
-    background-color: #e3f1f3;
     color: #383d3b;
     max-width: 1400px;
 }
