@@ -82,22 +82,40 @@ button:hover {
     color: #383d3b;
 }
   
-.project {
+.project img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
     border: 2px solid #383d3b;
-    border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 20px;
-    background-color: #b0f6ff;
-    color: #383d3b;
-    max-width: 1400px;
 }
-.project h3 {
-    margin-top: 0;
-    font-size: 24px;
-}
-.project p {
-    margin: 0;
-}
+
+.grid-container-project {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Create 4 columns with equal width */
+    grid-gap: 20px; /* Add some space between each grid item */
+  }
+  
+  .grid-item {
+    position: relative; /* Make the grid item a positioning context for the caption */
+  }
+  
+  .grid-item img {
+    display: block;
+    width: 100%; /* Make the image fill the entire grid item */
+  }
+  
+  .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center; /* Center the caption */
+    background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent black background to the caption */
+    color: #fff; /* Set the caption text color to white */
+    padding: 10px; /* Add some padding to the caption */
+    box-sizing: border-box; /* Include padding and border in the caption's width */
+  }
+
 .centered {
     text-align: center;
   }
