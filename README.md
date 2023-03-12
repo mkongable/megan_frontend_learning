@@ -1,4 +1,4 @@
-Personal Portfolio Website
+# Personal Portfolio Website
 This is my personal portfolio website that showcases my projects, hobbies, and passions related to frontend development and engineering. The purpose of this website is to help me find a job in the frontend development and engineering field.
 
 Features
